@@ -1,6 +1,6 @@
-# 🔑 เอกสารแนะนำการเชื่อมต่อ PyGrassReal Cloud API (API Reference Guide)
+# 🔑 PyGrassReal Cloud API Reference Guide
 
-PyGrassReal ให้บริการ API เชื่อมต่อกับระบบปัญญาประดิษฐ์ Multi-Agent และ Geometry Engine ในรูปแบบมาตรฐาน **OpenAI Compatible Endpoint** สามารถนำไปผสานการทำงานร่วมกับ Python SDK, LangChain, n8n, VSCode/Cursor, หรือโปรแกรม 3D CAD ได้อย่างง่ายดาย
+PyGrassReal provides high-performance API endpoints compatible with the **OpenAI Standard Format**. You can seamlessly integrate it into Python SDKs, LangChain, n8n, VSCode/Cursor, and CAD software environments.
 
 ---
 
@@ -11,22 +11,22 @@ PyGrassReal ให้บริการ API เชื่อมต่อกับ
 
 ---
 
-## 📋 รายการโมเดลที่พร้อมให้บริการ (Available Models)
+## 📋 Available Model Endpoints
 
-| Model String | หน้าที่หลัก | Backend Engine | Pricing (Per 1M Tokens) |
-| :--- | :--- | :--- | :--- |
-| `pygrassreal/phralak1.5` | โค้ดเรขาคณิต 3D, Python, CAD Scripting | Gemini 3.5 Flash-Lite | In: $0.35 / Out: $1.50 |
-| `pygrassreal/hanuman1.5` | ฐานความรู้สถาปัตยกรรม & กฎหมายอาคาร (RAG) | Gemini 3.1 Flash-Lite + RAG | In: $0.35 / Out: $1.50 |
-| `pygrassreal/sampati1` | ดึงข้อมูลวัสดุและราคาตลาดสดจากอินเทอร์เน็ต | Google Search Grounding | In: $0.35 / Out: $1.50 |
-| `pygrassreal/sida1.5` | เจนภาพแบบร่าง Perspective & Texture | Gemini 3.1 Flash Image | In: $0.71 / Out: $4.29 |
-| `pygrassreal/nilapat1.5` | สร้าง 3D Mesh / Splats จาก Prompt | TripoSplat 3D Engine | $0.07143 / Generation |
-| `pygrassreal/sadayu1.5` | เจนวิดีโอ Architectural Walkthrough | Veo 3.1 Lite | $0.0429 / วินาที (720p) |
+| Model String | Specialization | Upstream Engine | Input (per 1M) | Output (per 1M) |
+| :--- | :--- | :--- | :---: | :---: |
+| `pygrassreal/phralak1.5` | 3D Geometry scripts, Python & CAD modeling | Gemini 3.5 Flash-Lite | $0.35 | $1.50 |
+| `pygrassreal/hanuman1.5` | Architectural RAG & building standards | Gemini 3.1 Flash-Lite + RAG | $0.35 | $1.50 |
+| `pygrassreal/sampati1` | Live web search grounding & market pricing | Google Search Grounding | $0.35 | $1.50 |
+| `pygrassreal/sida1.5` | Perspective sketching & texture generation | Gemini 3.1 Flash Image | $0.71 | $4.29 |
+| `pygrassreal/nilapat1.5` | Prompt-to-3D mesh & Gaussian Splats | TripoSplat 3D Engine | $0.07143 / Model | — |
+| `pygrassreal/sadayu1.5` | Architectural video walkthroughs (720p) | Veo 3.1 Lite | $0.0429 / sec | — |
 
 ---
 
-## 💻 ตัวอย่างการเรียกใช้งานโค้ด (Code Examples)
+## 💻 Code Examples
 
-### 1. การใช้งานผ่าน Python (OpenAI Client)
+### 1. Python (OpenAI Client)
 ```python
 from openai import OpenAI
 
@@ -38,15 +38,15 @@ client = OpenAI(
 response = client.chat.completions.create(
     model="pygrassreal/phralak1.5",
     messages=[
-        {"role": "system", "content": "คุณคือ AI ผู้เชี่ยวชาญการเขียนสคริปต์ 3D CAD"},
-        {"role": "user", "content": "สร้างฟังก์ชัน Python คำนวณพิกัดเสาเข็มแบบ Grid สำหรับอาคารทรงกลม"}
+        {"role": "system", "content": "You are an expert computational CAD assistant."},
+        {"role": "user", "content": "Generate a Python script to compute foundation grid coordinates for a circular tower."}
     ]
 )
 
 print(response.choices[0].message.content)
 ```
 
-### 2. การใช้งานผ่าน cURL (Terminal)
+### 2. cURL (Terminal)
 ```bash
 curl https://api.pygrassreal.ai/v1/chat/completions \
   -H "Content-Type: application/json" \
@@ -54,13 +54,13 @@ curl https://api.pygrassreal.ai/v1/chat/completions \
   -d '{
     "model": "pygrassreal/hanuman1.5",
     "messages": [
-      {"role": "user", "content": "ระยะร่นอาคารสูงตามกฎกระทรวงฉบับที่ 33 ต้องเว้นเท่าไหร่?"}
+      {"role": "user", "content": "What are the standard setback requirements for high-rise residential towers?"}
     ]
   }'
 ```
 
 ---
 
-## 💳 การจัดการ Wallet & API Key
-* ลงทะเบียนและรับ API Key ได้ที่: [https://api.pygrassreal.ai](https://api.pygrassreal.ai)
-* ตรวจสอบ Usage & Logs แบบ Real-time ได้ในหน้า Developer Console
+## 💳 Manage Keys & Balance
+* Manage API keys and pre-fund credits at: [https://api.pygrassreal.ai](https://api.pygrassreal.ai)
+* View real-time usage statistics and invocation logs in the developer dashboard.
