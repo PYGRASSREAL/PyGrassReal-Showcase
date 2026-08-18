@@ -1,7 +1,8 @@
 <div align="center">
 
-<!-- 🌿 BRAND LOGO: Place your official brand logo in assets/logo.png and uncomment below -->
-<!-- <a href="https://pygrassreal.ai"><img src="assets/logo.png" alt="PyGrassReal Logo" width="140" /></a> -->
+<a href="https://pygrassreal.ai">
+  <img src="assets/logo.png" alt="PyGrassReal Logo" width="140" height="auto" />
+</a>
 
 # 🌿 PyGrassReal
 ### Next-Generation AI-Driven 3D Computational Design Platform
