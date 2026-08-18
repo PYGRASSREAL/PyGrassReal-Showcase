@@ -39,4 +39,4 @@ This document provides a step-by-step installation guide for setting up **PyGras
 ## ❓ Support & Assistance
 
 * **Issue Reporting:** [GitHub Issues](https://github.com/PYGRASSREAL/PyGrassReal-Showcase/issues)
-* **Email Support:** support@pygrassreal.com
+* **Email Support:** admin@pygrassreal.ai

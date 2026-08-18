@@ -13,7 +13,7 @@
 [![AI Benchmark](https://img.shields.io/badge/AI%20Benchmark-Rank%20%231%20(49.67%25)-brightgreen)](#-live-ai-benchmark-leaderboard)
 [![API Service](https://img.shields.io/badge/API-Pay--As--You--Go-blue)](#-official-api-cloud--pay-as-you-go-pricing)
 
-[🌐 Official Website](https://pygrassreal.ai) • [📦 Download Desktop Installer](#-downloads--installation-hub) • [🔑 Get API Key](https://api.pygrassreal.ai) • [📖 Documentation](docs/OVERVIEW.md) • [💬 Contact Sales](mailto:contact@pygrassreal.com)
+[🌐 Official Website](https://pygrassreal.ai) • [📦 Download Desktop Installer](#-downloads--installation-hub) • [🔑 Get API Key](https://api.pygrassreal.ai) • [📖 Documentation](docs/OVERVIEW.md) • [💬 Contact Sales](mailto:admin@pygrassreal.ai)
 
 ---
 
@@ -272,4 +272,4 @@ curl https://api.pygrassreal.ai/v1/chat/completions \
 ## 📞 Contact & Enterprise Inquiries
 For custom enterprise deployments, dedicated model hosting, or partnership opportunities:
 * 🌐 **Website:** [https://pygrassreal.ai](https://pygrassreal.ai)
-* 📧 **Email:** [contact@pygrassreal.com](mailto:contact@pygrassreal.com)
+* 📧 **Email:** [admin@pygrassreal.ai](mailto:admin@pygrassreal.ai)
