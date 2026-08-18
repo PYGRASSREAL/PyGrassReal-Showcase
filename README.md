@@ -122,9 +122,9 @@ graph TB
     subgraph Clients["🖥️ Unified Client Ecosystem"]
         Web["🌐 Web Cloud App (React 19 + Three.js)"]
         Desktop["💻 Desktop Software (.exe Windows NSIS)"]
-        Mobile["📱 Mobile App (iOS / Android Capacitor)"]
+        Mobile["📱 Mobile App (iOS / Android)"]
         IDE["🧩 PGR Studio (VSCode Extension)"]
-        CLI["⌨️ PGR CLI Tool (npm: pgr-cli)"]
+        CLI["⌨️ PGR CLI Tool"]
     end
 
     subgraph CoreEngine["⚡ Core Computation Engines"]
@@ -134,9 +134,9 @@ graph TB
     end
 
     subgraph AICloud["☁️ Cloud & AI Infrastructure"]
-        Orchestrator["🤖 Multi-Agent AI Engine (n8n + Cloudflare AI)"]
-        SupaDB["🗄️ Supabase (PostgreSQL, Vector RAG, Auth)"]
-        EdgeWorkers["🚀 Cloudflare Global Edge Network"]
+        Orchestrator["🤖 Multi-Agent AI Reasoning Engine"]
+        CloudStorage["🗄️ Enterprise Cloud Workspace & Knowledge Base"]
+        GlobalEdge["🚀 Global High-Speed Edge Network"]
     end
 
     Clients --> CoreEngine
@@ -200,14 +200,14 @@ PyGrassReal provides high-performance API access to its AI Reasoning Team and Co
 
 ### 📊 Official Model Pricing Table
 
-| Client Model String | Core Specialization & Capability | Upstream Engine | Input Price / 1M Tokens | Output Price / 1M Tokens | Unit Cost |
-| :--- | :--- | :--- | :---: | :---: | :---: |
-| **`pygrassreal/phralak1.5`** | **Geometry Code Engine:** Generates 3D CAD scripts, Python, Rhino & Grasshopper | Google Gemini 3.5 Flash-Lite (Vertex AI) | **$0.35** | **$1.50** | — |
-| **`pygrassreal/hanuman1.5`** | **Domain Knowledge RAG:** Architectural standards, building codes & CAD API docs | Google Gemini 3.1 Flash-Lite + RAG k-01/k-02 | **$0.35** | **$1.50** | — |
-| **`pygrassreal/sampati1`** | **Real-Time Web Search:** Live market materials, supplier pricing & web grounding | Google Search Grounding + Gemini 3.1 | **$0.35** | **$1.50** | + Search fee |
-| **`pygrassreal/sida1.5`** | **AI Concept Rendering:** Architectural perspective generation & material textures | Gemini 3.1 Flash Image (Nano Banana 2) | **$0.71** | **$4.29** | $85.71 / 1M img tokens (~$0.04/img) |
-| **`pygrassreal/nilapat1.5`** | **3D Generation:** Prompt-to-3D Mesh & Gaussian Splat generation | fal.ai TripoSplat 3D Engine | — | — | **$0.07143** / Model |
-| **`pygrassreal/sadayu1.5`** | **Cinematic Video:** Architectural camera walkthrough animation | Google Veo 3.1 Lite (Vertex AI) | — | — | **$0.0429** / sec (720p) |
+| Client Model String | Core Specialization & Capability | Input Price / 1M Tokens | Output Price / 1M Tokens | Unit Cost |
+| :--- | :--- | :---: | :---: | :---: |
+| **`pygrassreal/phralak1.5`** | **Geometry Code Engine:** Generates 3D CAD scripts, Python, Rhino & Grasshopper | **$0.35** | **$1.50** | — |
+| **`pygrassreal/hanuman1.5`** | **Domain Knowledge RAG:** Architectural standards, building codes & CAD API docs | **$0.35** | **$1.50** | — |
+| **`pygrassreal/sampati1`** | **Real-Time Web Search:** Live market materials, supplier pricing & web grounding | **$0.35** | **$1.50** | + Search fee |
+| **`pygrassreal/sida1.5`** | **AI Concept Rendering:** Architectural perspective generation & material textures | **$0.71** | **$4.29** | $85.71 / 1M img tokens (~$0.04/img) |
+| **`pygrassreal/nilapat1.5`** | **3D Generation:** Prompt-to-3D Mesh & Gaussian Splat generation | — | — | **$0.07143** / Model |
+| **`pygrassreal/sadayu1.5`** | **Cinematic Video:** Architectural camera walkthrough animation | — | — | **$0.0429** / sec (720p) |
 
 ### ⚡ OpenAI-Compatible Quickstart
 
@@ -264,8 +264,8 @@ curl https://api.pygrassreal.ai/v1/chat/completions \
 
 ## 🔒 Security & Enterprise Infrastructure
 * **End-to-End Encryption:** All project data and model assets are encrypted via TLS 1.3 in transit and AES-256 at rest.
-* **Enterprise Identity:** Managed with Supabase Auth, Row-Level Security (RLS), and RBAC policies.
-* **Global CDN & Edge Delivery:** Distributed globally via Cloudflare Edge Network ensuring 99.9% uptime SLA.
+* **Enterprise Identity & Access Control:** Enterprise-grade authentication and strict Row-Level Security (RLS) policies.
+* **Global High-Availability Network:** Distributed globally with automated load balancing and 99.9% uptime SLA.
 
 ---
 

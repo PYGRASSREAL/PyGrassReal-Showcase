@@ -13,14 +13,14 @@ PyGrassReal provides high-performance API endpoints compatible with the **OpenAI
 
 ## 📋 Available Model Endpoints
 
-| Model String | Specialization | Upstream Engine | Input (per 1M) | Output (per 1M) |
-| :--- | :--- | :--- | :---: | :---: |
-| `pygrassreal/phralak1.5` | 3D Geometry scripts, Python & CAD modeling | Gemini 3.5 Flash-Lite | $0.35 | $1.50 |
-| `pygrassreal/hanuman1.5` | Architectural RAG & building standards | Gemini 3.1 Flash-Lite + RAG | $0.35 | $1.50 |
-| `pygrassreal/sampati1` | Live web search grounding & market pricing | Google Search Grounding | $0.35 | $1.50 |
-| `pygrassreal/sida1.5` | Perspective sketching & texture generation | Gemini 3.1 Flash Image | $0.71 | $4.29 |
-| `pygrassreal/nilapat1.5` | Prompt-to-3D mesh & Gaussian Splats | TripoSplat 3D Engine | $0.07143 / Model | — |
-| `pygrassreal/sadayu1.5` | Architectural video walkthroughs (720p) | Veo 3.1 Lite | $0.0429 / sec | — |
+| Model String | Specialization | Input (per 1M) | Output (per 1M) |
+| :--- | :--- | :---: | :---: |
+| `pygrassreal/phralak1.5` | 3D Geometry scripts, Python & CAD modeling | $0.35 | $1.50 |
+| `pygrassreal/hanuman1.5` | Architectural RAG & building standards | $0.35 | $1.50 |
+| `pygrassreal/sampati1` | Live web search grounding & market pricing | $0.35 | $1.50 |
+| `pygrassreal/sida1.5` | Perspective sketching & texture generation | $0.71 | $4.29 |
+| `pygrassreal/nilapat1.5` | Prompt-to-3D mesh & Gaussian Splats | $0.07143 / Model | — |
+| `pygrassreal/sadayu1.5` | Architectural video walkthroughs (720p) | $0.0429 / sec | — |
 
 ---
 
