@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href="https://pygrassreal.ai">
-  <img src="assets/logo.png" alt="PyGrassReal Logo" width="140" height="auto" />
+  <img src="assets/logo.png" alt="PyGrassReal Logo" width="220" height="auto" />
 </a>
 
-# 🌿 PyGrassReal
+# PyGrassReal
 ### Next-Generation AI-Driven 3D Computational Design Platform
 
 [![License: Proprietary](https://img.shields.io/badge/License-Commercial%20%2F%20Proprietary-red.svg)](#-license--terms-of-service)
