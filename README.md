@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🌿 PyGrassReal Parametric
-### Next-Generation AI-Driven 3D Parametric & Computational Design Platform
+# 🌿 PyGrassReal
+### Next-Generation AI-Driven 3D Computational Design Platform
 
 [![License: Proprietary](https://img.shields.io/badge/License-Commercial%20%2F%20Proprietary-red.svg)](#-ข้อกำหนดลิขสิทธิ์และการใช้งาน-license--terms-of-service)
 [![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Windows%20%7C%20iOS%20%7C%20Android%20%7C%20CLI-success)](#-ศูนย์ดาวน์โหลดและวิธีติดตั้ง-downloads--installation)
@@ -21,7 +21,7 @@
 
 ## 🌟 ทำไมต้องเลือก PyGrassReal? (Why PyGrassReal?)
 
-PyGrassReal เป็นแพลตฟอร์มออกแบบ 3 มิติเชิงคำนวณ (Computational Design) ยุคใหม่ ที่ผสานระหว่าง **Parametric CAD**, **3D Gaussian Splatting**, และ **ระบบทีมปัญญาประดิษฐ์ Multi-Agent AI** เข้าด้วยกันอย่างลงตัว
+PyGrassReal เป็นแพลตฟอร์มออกแบบ 3 มิติเชิงคำนวณ (Computational Design) ยุคใหม่ ที่ผสานระหว่าง **3D CAD**, **3D Gaussian Splatting**, และ **ระบบทีมปัญญาประดิษฐ์ Multi-Agent AI** เข้าด้วยกันอย่างลงตัว
 
 ### 🚀 ไฮไลต์ฟีเจอร์เด่น
 1. **🤖 ทีม AI อัจฉริยะช่วยคิดและคำนวณ (Multi-Agent System)**: 
@@ -30,8 +30,8 @@ PyGrassReal เป็นแพลตฟอร์มออกแบบ 3 มิ�
    - ผ่านการทดสอบวัดผลด้าน 3D CAD, Geometry Scripting และ Node Workflow โดยโมเดล **`phralak-1.5` คว้าคะแนนอันดับ 1 สูงถึง 49.67%** (คะแนนรวม) และ **49.50%** ในหมวด Workflow Node เหนือกว่าโมเดล AI ระดับโลกอย่าง Gemini, Claude และ ChatGPT
 3. **🧊 การแสดงผล 3 มิติระดับ Photorealistic (WebGL & Gaussian Splatting)**:
    - เรนเดอร์ Point Cloud, 3D Mesh, และ Gaussian Splats ความละเอียดสูงบนเว็บและเดสก์ท็อปได้อย่างลื่นไหล
-4. **🔄 Real-time Parametric Adjustment**:
-   - ปรับเปลี่ยนรูปทรงอาคาร ขนาดชิ้นงาน หรือโครงสร้างแบบ Dynamic ผ่านการปรับ Parameter ได้ทันที
+4. **🔄 Real-time 3D Adjustment**:
+   - ปรับเปลี่ยนรูปทรงอาคาร ขนาดชิ้นงาน หรือโครงสร้างแบบ Dynamic ได้ทันที
 5. **🏢 ทำงานได้ทุกที่ด้วย Cross-Platform Suite**:
    - สลับการทำงานอย่างไร้รอยต่อระหว่างหน้าเว็บ, โปรแกรมติดตั้งบนคอมพิวเตอร์, แอปมือถือ, และโปรแกรมเขียนโค้ด (VSCode)
 
@@ -49,7 +49,7 @@ PyGrassReal เป็นแพลตฟอร์มออกแบบ 3 มิ�
 
 ---
 
-### 1) 📐 Score (%) Q_01 Designer 200Q (การออกแบบเชิงพารามิเตอร์)
+### 1) 📐 Score (%) Q_01 Designer 200Q (การออกแบบ 3 มิติเชิงคำนวณ)
 | อันดับ | โมเดล AI (Model) | คะแนน (%) | กราฟแสดงผล (Visual Bar) | จุดเด่น |
 | :---: | :--- | :---: | :--- | :--- |
 | 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **50.00%** | `████████████████████` | 🏆 **อันดับ 1 ร่วม ออกแบบแม่นยำสมบูรณ์แบบ** |
