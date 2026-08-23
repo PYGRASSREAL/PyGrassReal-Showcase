@@ -47,71 +47,9 @@ PyGrassReal is a next-generation 3D Computational Design platform that seamlessl
 
 ![AI Benchmark Designer & Leaderboard](assets/benchmark-chart.svg)
 
-*Live evaluation scores verified at **[pygrassreal.ai/dashboard/benchmark](https://pygrassreal.ai/dashboard/benchmark)***
+*Live interactive evaluation scores verified at **[pygrassreal.ai/dashboard/benchmark](https://pygrassreal.ai/dashboard/benchmark)***
 
 </div>
-
----
-
-### 1) 📐 Score (%) Q_01 Designer 200Q (3D Computational Design)
-| Rank | AI Model | Score (%) | Visual Bar | Key Strength |
-| :---: | :--- | :---: | :--- | :--- |
-| 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **50.00%** | `████████████████████` | 🏆 **Rank #1 (Co-Leader): Flawless 3D Design Reasoning** |
-| 🥇 | **`gemini-3.6-flash`** | **50.00%** | `████████████████████` | High throughput & fast response |
-| 🥉 | **🌿 `hanuman-1.5` (PyGrassReal)** | **49.50%** | `███████████████████░` | ⭐ **Superior Architectural Knowledge RAG** |
-| 4 | **`chatgpt-5.6-sol` (OpenAI)** | **49.00%** | `██████████████████░░` | Capable generalist baseline |
-| 5 | **`gemini-3.5-flash`** | **48.50%** | `█████████████████░░░` | Standard computation score |
-| 6 | **`claude-fable-5` (Anthropic)** | **48.00%** | `████████████████░░░░` | Minor geometric formula deviations |
-
----
-
-### 2) 💻 Score (%) Q_02 Codecad2D 200Q (CAD & Python Scripting)
-| Rank | AI Model | Score (%) | Visual Bar | CAD Code Execution Capability |
-| :---: | :--- | :---: | :--- | :--- |
-| 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **49.50%** | `████████████████████` | 🏆 **Rank #1: Zero-error CAD script generation** |
-| 🥈 | **`gemini-3.6-flash`** | **49.00%** | `███████████████████░` | Clean syntax execution |
-| 🥉 | **`chatgpt-5.6-sol`** | **48.00%** | `██████████████████░░` | Solid basic CAD logic |
-| 4 | **`claude-fable-5`** | **48.00%** | `██████████████████░░` | Detailed code documentation |
-| 5 | **🌿 `hanuman-1.5` (PyGrassReal)** | **48.00%** | `██████████████████░░` | ⭐ **Accurate CAD API knowledge lookup** |
-| 6 | **`gemini-3.5-flash`** | **47.00%** | `█████████████████░░░` | Inconsistencies in advanced geometry methods |
-
----
-
-### 3) 🎛️ Score (%) Q_03 Workflownode 200Q (Visual Node Programming)
-| Rank | AI Model | Score (%) | Visual Bar | Visual Node Workflow Expertise |
-| :---: | :--- | :---: | :--- | :--- |
-| 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **49.50%** | `████████████████████` | 🏆 **Rank #1: Flawless node data-flow wiring** |
-| 🥈 | **`gemini-3.6-flash`** | **49.00%** | `███████████████████░` | Strong node graph comprehension |
-| 🥉 | **🌿 `hanuman-1.5` (PyGrassReal)** | **46.00%** | `████████████████░░░░` | Efficient node clustering and retrieval |
-| 4 | **`gemini-3.5-flash`** | **44.00%** | `███████████████░░░░░` | Connection errors in multi-branch workflows |
-| 5 | **`claude-fable-5`** | **43.50%** | `██████████████░░░░░░` | Sequence confusion in visual programming logic |
-| 6 | **`chatgpt-5.6-sol`** | **40.50%** | `████████████░░░░░░░░` | Severe degradation in complex node structures |
-
----
-
-### 4) 📊 Combined Score Q_01 + Q_02 + Q_03 / 600 (Overall Benchmark)
-| Rank | AI Model | Combined Score (%) | 3D Computational Design Assessment |
-| :---: | :--- | :---: | :--- |
-| 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **49.67%** | ⭐⭐⭐⭐⭐ **Rank #1: Ultimate precision across all domains** |
-| 🥈 | **`gemini-3.6-flash`** | **49.33%** | Competitive top-tier performance |
-| 🥉 | **🌿 `hanuman-1.5` (PyGrassReal)** | **47.83%** | ⭐⭐⭐⭐⭐ **Domain-expert architectural RAG reasoning** |
-| 4 | **`claude-fable-5` (Anthropic)** | **46.50%** | Good general reasoning, lags in node workflows |
-| 5 | **`gemini-3.5-flash`** | **46.50%** | Lower CAD scripting accuracy |
-| 6 | **`chatgpt-5.6-sol` (OpenAI)** | **45.83%** | Lowest score in visual programming and node logic |
-
----
-
-### 5) 🛡️ Combined Error Rate (%) (Lower is Better)
-| Rank | AI Model | Error Rate (%) | Code Stability & Execution Safety |
-| :---: | :--- | :---: | :--- |
-| 🥇 | **🌿 `phralak-1.5` (PyGrassReal)** | **0.67%** | 🏆 **Lowest Error Rate in the world (100% production-ready)** |
-| 🥈 | **`gemini-3.6-flash`** | **1.33%** | High stability |
-| 🥉 | **🌿 `hanuman-1.5` (PyGrassReal)** | **4.33%** | ⭐ **Ultra-low error in domain-specific tasks** |
-| 4 | **`gemini-3.5-flash`** | **7.00%** | Higher failure rate in structural calculation |
-| 5 | **`claude-fable-5`** | **7.00%** | Prone to visual node connection mismatches |
-| 6 | **`chatgpt-5.6-sol`** | **8.33%** | Highest failure rate across all test suites |
-
-> 📌 **Why PyGrassReal Wins:** In specialized **Visual Node Workflows (`Q_03`)**, generic models like ChatGPT-5.6 drop to **40.50%** with a **8.33% error rate**, while **`phralak-1.5` achieves 49.50% with an ultra-low 0.67% error rate**. This ensures production-grade, zero-debugging computational geometry pipelines.
 
 ---
 
