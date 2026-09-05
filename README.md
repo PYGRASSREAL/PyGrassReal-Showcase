@@ -1,3 +1,20 @@
+---
+language:
+- th
+- en
+license: other
+license_name: proprietary
+tags:
+- 3d
+- cad
+- computational-design
+- parametric-design
+- visual-workflow
+- multi-agent
+- architecture
+pipeline_tag: text-generation
+---
+
 <div align="center">
 
 <a href="https://pygrassreal.ai">
@@ -13,7 +30,7 @@
 [![AI Benchmark](https://img.shields.io/badge/AI%20Benchmark-Rank%20%231%20(49.67%25)-brightgreen)](#-live-ai-benchmark-leaderboard)
 [![API Service](https://img.shields.io/badge/API-Pay--As--You--Go-blue)](#-official-api-cloud--pay-as-you-go-pricing)
 
-[🌐 Official Website](https://pygrassreal.ai) • [📦 Download Desktop Installer](#-downloads--installation-hub) • [🔑 Get API Key](https://api.pygrassreal.ai) • [📖 Documentation](docs/OVERVIEW.md) • [💬 Contact Sales](mailto:admin@pygrassreal.ai)
+[🌐 Official Website](https://pygrassreal.ai) • [📦 Download Desktop Installer](#-downloads--installation-hub) • [🔑 Get API Key](https://api.pygrassreal.ai) • [📖 Documentation](docs/API_DOCUMENTATION.md) • [💬 Contact Sales](mailto:admin@pygrassreal.ai)
 
 ---
 
