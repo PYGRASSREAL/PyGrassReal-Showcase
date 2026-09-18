@@ -1,20 +1,3 @@
----
-language:
-- th
-- en
-license: other
-license_name: proprietary
-tags:
-- 3d
-- cad
-- computational-design
-- parametric-design
-- visual-workflow
-- multi-agent
-- architecture
-pipeline_tag: text-generation
----
-
 <div align="center">
 
 <a href="https://pygrassreal.ai">
