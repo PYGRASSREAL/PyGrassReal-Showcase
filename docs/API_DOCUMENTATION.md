@@ -19,7 +19,7 @@ PyGrassReal provides high-performance API endpoints compatible with the **OpenAI
 | `pygrassreal/hanuman1.5` | Architectural RAG & building standards | $0.35 | $1.50 |
 | `pygrassreal/sampati1` | Live web search grounding & market pricing | $0.35 | $1.50 |
 | `pygrassreal/sida1.5` | Perspective sketching & texture generation | $0.71 | $4.29 |
-| `pygrassreal/nilapat1.5` | Prompt-to-3D mesh & Gaussian Splats | $0.07143 / Model | — |
+| `pygrassreal/matchanu1.5` | Prompt-to-3D mesh & Gaussian Splats | $0.07143 / Model | — |
 | `pygrassreal/sadayu1.5` | Architectural video walkthroughs | $0.36 | $2.14 (Video: $0.04286 / sec) |
 
 ---

@@ -161,7 +161,7 @@ PyGrassReal provides high-performance API access to its AI Reasoning Team and Co
 | **`pygrassreal/hanuman1.5`** | **Domain Knowledge RAG:** Architectural standards, building codes & CAD API docs | **$0.35** | **$1.50** | — |
 | **`pygrassreal/sampati1`** | **Real-Time Web Search:** Live market materials, supplier pricing & web grounding | **$0.35** | **$1.50** | + Search fee |
 | **`pygrassreal/sida1.5`** | **AI Concept Rendering:** Architectural perspective generation & material textures | **$0.71** | **$4.29** | $85.71 / 1M img tokens (~$0.04/img) |
-| **`pygrassreal/nilapat1.5`** | **3D Generation:** Prompt-to-3D Mesh & Gaussian Splat generation | — | — | **$0.07143** / Model |
+| **`pygrassreal/matchanu1.5`** | **3D Generation:** Prompt-to-3D Mesh & Gaussian Splat generation | — | — | **$0.07143** / Model |
 | **`pygrassreal/sadayu1.5`** | **Cinematic Video:** Architectural camera walkthrough animation | **$0.36** | **$2.14** | **$0.04286** / sec (720p), **$0.07143** / sec (1080p) |
 
 ### ⚡ OpenAI-Compatible Quickstart
