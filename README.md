@@ -70,36 +70,6 @@ PyGrassReal is a next-generation 3D Computational Design platform that seamlessl
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-graph TB
-    subgraph Clients["🖥️ Unified Client Ecosystem"]
-        Web["🌐 Web Cloud App (React 19 + Three.js)"]
-        Desktop["💻 Desktop Software (.exe Windows NSIS)"]
-        Mobile["📱 Mobile App (iOS / Android)"]
-        IDE["🧩 PGR Studio (VSCode Extension)"]
-        CLI["⌨️ PGR CLI Tool"]
-    end
-
-    subgraph CoreEngine["⚡ Core Computation Engines"]
-        CADCore["📐 Computational Geometry & CAD Engine"]
-        SplatViewer["✨ 3D Gaussian Splatting & WebGL Renderer"]
-        NodeWorkspace["🎛️ Node-based Visual Workflow Editor"]
-    end
-
-    subgraph AICloud["☁️ Cloud & AI Infrastructure"]
-        Orchestrator["🤖 Multi-Agent AI Reasoning Engine"]
-        CloudStorage["🗄️ Enterprise Cloud Workspace & Knowledge Base"]
-        GlobalEdge["🚀 Global High-Speed Edge Network"]
-    end
-
-    Clients --> CoreEngine
-    CoreEngine <--> AICloud
-```
-
----
-
 ## 📦 Downloads & Installation Hub
 
 We offer flexible deployment options across desktop, cloud, mobile, and developer tooling:
